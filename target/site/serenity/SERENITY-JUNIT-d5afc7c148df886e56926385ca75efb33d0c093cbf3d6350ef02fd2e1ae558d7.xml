@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Buy book" skipped="0" tests="1" time="41.96" timestamp="2024-05-22 11:25:47"><testcase name="Purchase Successfully"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled
+com.saucedemo.testing.tasks.BuyBookTask.performAs(BuyBookTask.java:37)
+com.saucedemo.testing.stepdefinitions.PurchaseItemStepDefinition.iSelectABookAtRandom(PurchaseItemStepDefinition.java:59)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase></testsuite>

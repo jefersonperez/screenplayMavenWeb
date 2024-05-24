@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Buy book" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-05-22T16:25:47" hostname="MacBook-Pro-ML-185545.local" time="42.219">
+  <properties/>
+  <testcase name="Purchase Successfully" classname="Buy book" time="42.219">
+    <failure message="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1149)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1229)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.CGLIB$performAs$0(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d$$FastClassByCGLIB$$eb009f51.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:158)
+	at com.saucedemo.testing.tasks.BuyBookTask.performAs(BuyBookTask.java:37)
+	at com.saucedemo.testing.tasks.BuyBookTask$$EnhancerByCGLIB$$a05d1531.CGLIB$performAs$0(&lt;generated&gt;)
+	at com.saucedemo.testing.tasks.BuyBookTask$$EnhancerByCGLIB$$a05d1531$$FastClassByCGLIB$$7165087f.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at com.saucedemo.testing.tasks.BuyBookTask$$EnhancerByCGLIB$$a05d1531.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at com.saucedemo.testing.stepdefinitions.PurchaseItemStepDefinition.iSelectABookAtRandom(PurchaseItemStepDefinition.java:59)
+	at ✽.I select a book at random(src/test/resources/com.saucedemo.testing.features/purchase.feature:12)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.id: addNewRecordButton to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:1146)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:954)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1229)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.CGLIB$performAs$0(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d$$FastClassByCGLIB$$eb009f51.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:158)
+	at com.saucedemo.testing.tasks.BuyBookTask.performAs(BuyBookTask.java:37)
+	at com.saucedemo.testing.tasks.BuyBookTask$$EnhancerByCGLIB$$a05d1531.CGLIB$performAs$0(&lt;generated&gt;)
+	at com.saucedemo.testing.tasks.BuyBookTask$$EnhancerByCGLIB$$a05d1531$$FastClassByCGLIB$$7165087f.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at com.saucedemo.testing.tasks.BuyBookTask$$EnhancerByCGLIB$$a05d1531.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at com.saucedemo.testing.stepdefinitions.PurchaseItemStepDefinition.iSelectABookAtRandom(PurchaseItemStepDefinition.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at cucumber.runtime.Utils$1.call(Utils.java:31)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:25)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#addNewRecordButton&quot;}
+  (Session info: chrome=125.0.6422.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-ML-185545.local', ip: '2800:486:149c:6200:d55f:cf79:fa41:842c%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.61, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: /var/folders/s3/m25y97z92tb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81dab52099225c88d2ff414b957b21e3
+*** Element info: {Using=id, value=addNewRecordButton}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:18)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:221)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 95 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[may. 22, 2024 11:25:47 A. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking, --disable-infobars, --disable-notifications], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, supportsAlerts: false, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: }
+Starting ChromeDriver 125.0.6422.60 (3ac3319bff9f3e139d632e3d195e3d2d43d86e37-refs/branch-heads/6422@{#1017}) on port 5582
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+may. 22, 2024 11:25:48 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Purchase Successfully
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP userAutomation clicks on INPUT ADD
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected enabled element was not enabled
+]]></system-err>
+</testsuite>
